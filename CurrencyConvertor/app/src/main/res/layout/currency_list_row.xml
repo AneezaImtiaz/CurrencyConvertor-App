@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/White"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:paddingBottom="18dp"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:paddingTop="18dp"
+    android:scaleType="fitCenter"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:adjustViewBounds="true"
+    android:layout_marginBottom="10dp"
+    android:id="@+id/card">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:orientation="vertical">
+
+        <!-- Currency -->
+        <TextView
+            android:id="@+id/currency"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="6dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:text="sadasdasd"
+            android:textColor="@color/Black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <!-- Amount of Money -->
+        <EditText
+            android:id="@+id/amount"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="10dp"
+            android:adjustViewBounds="true"
+            android:gravity="center"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:clickable="false"
+            android:inputType="number"
+            android:imeOptions="actionDone"
+            android:scaleType="fitCenter"
+            android:text="1"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
+
